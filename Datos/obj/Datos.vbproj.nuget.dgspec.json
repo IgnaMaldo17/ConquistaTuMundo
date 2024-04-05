@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nachi\\source\\repos\\Sistema-Conquista-tu-Mundo\\Datos\\Datos.vbproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nachi\\source\\repos\\Sistema-Conquista-tu-Mundo\\Datos\\Datos.vbproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nachi\\source\\repos\\Sistema-Conquista-tu-Mundo\\Datos\\Datos.vbproj",
+        "projectName": "Datos",
+        "projectPath": "C:\\Users\\nachi\\source\\repos\\Sistema-Conquista-tu-Mundo\\Datos\\Datos.vbproj",
+        "packagesPath": "C:\\Users\\nachi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nachi\\source\\repos\\Sistema-Conquista-tu-Mundo\\Datos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Aplicaciones\\Visual Studio\\Componentes\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nachi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\nachi\\source\\repos\\Sistema-Conquista-tu-Mundo\\Entidades\\Entidades.vbproj": {
+                "projectPath": "C:\\Users\\nachi\\source\\repos\\Sistema-Conquista-tu-Mundo\\Entidades\\Entidades.vbproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nachi\\source\\repos\\Sistema-Conquista-tu-Mundo\\Entidades\\Entidades.vbproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nachi\\source\\repos\\Sistema-Conquista-tu-Mundo\\Entidades\\Entidades.vbproj",
+        "projectName": "Entidades",
+        "projectPath": "C:\\Users\\nachi\\source\\repos\\Sistema-Conquista-tu-Mundo\\Entidades\\Entidades.vbproj",
+        "packagesPath": "C:\\Users\\nachi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nachi\\Source\\Repos\\Sistema-Conquista-tu-Mundo\\Entidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Aplicaciones\\Visual Studio\\Componentes\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nachi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
